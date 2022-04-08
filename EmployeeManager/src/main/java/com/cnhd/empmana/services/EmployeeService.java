@@ -6,4 +6,5 @@ import com.cnhd.empmana.model.Employee;
 
 public interface EmployeeService {
 	List<Employee> getAllEmployees();
+	void saveEmployee(Employee employee);
 }
